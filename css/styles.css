@@ -306,19 +306,12 @@ width: 445px;
 
 .delivering {
   background-color: var(--delivering-bg-color);
-  background-image: url("../img/delivering-bg-top-img.svg");
+  background-image: url("../img/delivering-bg-top-img.svg"), url("../img/delivering-bg-bottom-img.svg");
   background-repeat: no-repeat;
-  background-position: calc(50% - 680px) top;
+  background-position: calc(50% - 680px) top,calc(50% + 750px) calc(100% + 100px);
   padding-top: 140px;
 }
 
-.delivering__container {
-
-  background-image: url("../img/delivering-bg-bottom-img.svg");
-background-repeat: no-repeat;
-background-position: calc(50% + 750px) calc(100% + 100px);
-
-}
 
 
 
