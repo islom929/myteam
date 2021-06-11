@@ -130,18 +130,20 @@ color: var(--font-color-pink);
 
 
 .button {
+
   text-decoration: none;
   font-weight: 600;
 font-size: 18px;
 line-height: 28px;
 padding: 9px 33px 11px 32px;
-border: 2px solid #FFFFFF;
+border: 2px solid transparent;
 border-radius: 24px;
 text-align: center;
 color: var(--font-color-white);
 }
 
 .nav__button {
+  border-color: #fff;
   width: 160px;
   margin-left: auto;
 }
@@ -298,4 +300,33 @@ line-height: 25px;
 color: var(--font-color-white);
 width: 445px;
 
+}
+
+.ready {
+  background-color: var(--font-color-pink);
+  background-image: url("../img/ready-bg-img.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 754px) calc(100% + 100px);
+}
+
+.ready__container {
+  display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.ready__title{
+  font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+color: var(--font-color-dark-green);
+}
+
+.ready__button {
+  border-color: var(--font-color-dark-green);
+  color: var(--font-color-dark-green);
+  width: 160px;
+  padding: 9px 33px 11px 32px;
+  margin-top: 76px;
+  margin-bottom: 76px;
 }
