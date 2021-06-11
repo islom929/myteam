@@ -6,6 +6,7 @@
   --font-color-light-green:#79C8C7;
   --font-color-dark-green:#012F34;
   --font-color-black:#002529;
+--delivering-bg-color:#004047;
 
 
 
@@ -79,12 +80,12 @@ img {
   margin-right: auto;
 }
 
-.header {
+.header-talant__section {
   background-color: var(--header-bg-color);
 }
 
 
-/* NAV  */
+/* TODO NAV  */
 
 
 .nav {
@@ -152,7 +153,7 @@ color: var(--font-color-white);
 }
 
 
- /* TALANT  */
+ /* TODO TALANT  */
 
 
 
@@ -217,7 +218,7 @@ margin-bottom: 80px;
 }
 
 
-/* MANAGE  */
+/* TODO MANAGE  */
 
 
 
@@ -298,4 +299,100 @@ line-height: 25px;
 color: var(--font-color-white);
 width: 445px;
 
+}
+
+
+/* TODO DELIVERING  */
+
+.delivering {
+  background-color: var(--delivering-bg-color);
+  background-image: url("../img/delivering-bg-top-img.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 680px) top;
+  padding-top: 140px;
+}
+
+.delivering__container {
+
+  background-image: url("../img/delivering-bg-bottom-img.svg");
+background-repeat: no-repeat;
+background-position: calc(50% + 750px) calc(100% + 100px);
+
+}
+
+
+
+
+.delivering__title {
+  margin: 0;
+  max-width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: var(--font-color-white);
+margin-bottom: 55px;
+}
+
+.delivering-title__span {
+  color: var(--font-color-light-green);
+}
+
+.delivering__list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+
+}
+
+.delivering__item {
+  background-image: url("../img/quotes.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 36px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delivering__blockquote {
+  margin: 0;
+  color: var(--font-color-white);
+  font-weight: 600;
+font-size: 15px;
+line-height: 25px;
+
+}
+
+.delivering-list__title {
+  font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+
+color: var(--font-color-light-green);
+margin: 0;
+margin-top: 24px;
+
+}
+
+.delivering-list__text {
+  font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+
+color: var(--font-color-white);
+margin: 0;
+margin-top: 2px;
+margin-bottom: 32px;
+}
+
+.delivering__img{
+
+width: 62px;
+height: 62px;
+margin-bottom: 150px;
 }
