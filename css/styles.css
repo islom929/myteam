@@ -83,6 +83,9 @@ img {
   background-color: var(--header-bg-color);
 }
 
+.header{
+  background-color: var(--header-bg-color);
+}
 
 /* NAV  */
 
