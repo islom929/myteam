@@ -85,9 +85,7 @@ img {
   background-color: var(--header-bg-color);
 }
 
-.header{
-  background-color: var(--header-bg-color);
-}
+
 
 /* TODO NAV  */
 
@@ -528,3 +526,208 @@ color: var(--font-color-white);
 color: var(--font-color-pink);
 }
 
+
+
+ /*TODO   ABOUT PAGE   */
+
+
+.about {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: var(--header-bg-color);
+  background-image: url("../img/about-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 750px) bottom;
+}
+
+.about__container{
+  display: flex;
+
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+  color: var(--font-color-white);
+  margin: 0;
+}
+
+.about__text {
+  margin: 0;
+  width: 730px;
+  margin-left: auto;
+color: var(--font-color-white);
+  font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+
+}
+
+.about__text::before{
+content: "";
+border-top: 4px solid var(--font-color-pink);
+display: block;
+width: 50px;
+margin-bottom: 40px;
+}
+
+
+
+/*TODO   DIRECTORS   */
+
+
+.directors {
+  background-color: var(--delivering-bg-color);
+padding-top: 140px;
+padding-bottom: 140px;
+background-image: url("../img/directors-bg-left.svg"),url("../img/directors-bg-right.svg");
+background-repeat: no-repeat;
+background-position: calc(50% - 854px) top,calc(50% + 680px) bottom;
+}
+
+.directors__title  {
+  margin: 0;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--font-color-white);
+}
+
+.directors__list {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.directors__item {
+  margin-top: 75px;
+  background-color: #012F34;
+position: relative;
+  width: 350px;
+  padding-top: 145px;
+  padding-bottom: 55px;
+}
+
+.directors__item::after {
+  position: absolute;
+left: 147px;
+right: 147px;
+bottom: -28px;
+  content: "";
+  display: block;
+  background-image: url("../img/icon-plus.svg");
+  background-repeat: no-repeat;
+background-position: center center;
+  background-color: var(--font-color-pink);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+
+}
+
+
+
+.item-director__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--font-color-light-green);
+  margin: 0;
+}
+
+.item-director__text {
+  margin: 0;
+  font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: var(--font-color-white);
+width: 240px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.item-director__blockquote {
+  margin-top: 8px;
+  font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: var(--font-color-white);
+width: 240px;
+margin-left: auto;
+margin-right: auto;
+}
+.nikita__item {
+  background-image: url("../img/img-nikita.png");
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 47px);
+}
+
+.cristian__item{
+  background-image: url("../img/img-cristian.png");
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 47px);
+}
+
+.cruz__item {
+  background-image: url("../img/img-cruz.png");
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 47px);
+}
+
+.drake__item {
+  background-image: url("../img/img-drake.png");
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 47px);
+}
+
+.griffin__item {
+  background-image: url("../img/img-griffin.png");
+  background-repeat: no-repeat;
+  background-position: center calc(50% - 47px);
+}
+
+.aden__item {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+  .director-network{
+display: flex;
+justify-content: space-between;
+width: 60px;
+margin-left: auto;
+margin-right: auto;
+
+  }
+.director-network a {
+color: var(--font-color-white);
+}
+
+.director-network a:hover {
+  color: var(--font-color-pink);
+}
+
+.aden__item::after{
+  position: absolute;
+  left: 147px;
+  right: 147px;
+  bottom: -28px;
+    content: "";
+    display: block;
+    background-image: url("../img/icon-cross.svg");
+    background-repeat: no-repeat;
+  background-position: center center;
+    background-color:var(--font-color-light-green);
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+
+}
