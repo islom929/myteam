@@ -731,3 +731,36 @@ color: var(--font-color-white);
     height: 56px;
 
 }
+
+/*TODO CLIENTS  */
+
+.clients {
+background-color: var(--center-section-bg);
+background-image: url("../img/clients-bg.svg");
+background-repeat: no-repeat;
+background-position: calc(50% - 754px) top;
+}
+
+.clients__container {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.clients__title {
+  margin: 0;
+  font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+color: var(--font-color-white);
+}
+
+.clients__list {
+margin-top: 70px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+justify-content: space-between;
+}
+
+
